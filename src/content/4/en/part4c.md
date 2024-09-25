@@ -390,7 +390,7 @@ const errorHandler = (error, request, response, next) => {
 }
 ```
 
-After these changes, the tests will pass.
+After these changes, the tests will pass. (As long as you've added en error handling structure to you usersRouter.post router)
 
 We could also implement other validations into the user creation. We could check that the username is long enough, that the username only consists of permitted characters, or that the password is strong enough. Implementing these functionalities is left as an optional exercise.
 
